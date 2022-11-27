@@ -1,1 +1,86 @@
-/* Write your CSS here! */
+/* --melon: #f3b3a6ff;
+--rosy-brown: #b98b82ff;
+--mauvelous: #e4959eff;
+--charcoal: #37515fff;
+--xiketic: #1f0812ff; */
+
+
+body {
+    width: 100%;
+    background-color: #b98b82ff;
+    margin: auto;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.panorama{
+        padding: 20px;
+    
+}
+
+
+#title{
+    font-size: 24pt;
+    padding: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 150px;
+    width: 850px;
+    background-color: whitesmoke;
+    color: #37515fff;
+    text-align: center;
+    
+}
+
+#subtitle{
+    font-size: 18pt;
+    padding: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 850px;
+    background-color: #37515fff;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.intro {
+    text-align: center;
+}
+
+img.intro{
+
+ 
+}
+
+ul {
+    list-style-type: circle;
+  }
+
+
+img.photos{
+    border-radius: 4px;
+    height: 500px;
+    width: auto;
+    max-width: 100%;
+    }
+
+
+/* div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+      
+    img {width: 100%}
+      
+    div.container {
+    text-align: center;
+    padding: 10px 20px;
+    } */
