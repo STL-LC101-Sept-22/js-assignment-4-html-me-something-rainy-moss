@@ -7,16 +7,15 @@
 
 body {
     width: 100%;
-    background-color: #b98b82ff;
+    background-color: whitesmoke;
     margin: auto;
     overflow: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Courier New', Courier, monospace
     
 }
 
 .panorama{
         padding: 20px;
-    
 }
 
 
@@ -29,58 +28,70 @@ body {
     margin-bottom: 25px;
     height: 150px;
     width: 850px;
-    background-color: whitesmoke;
+    background-color: #b98b82ff;
     color: #37515fff;
     text-align: center;
     
 }
 
 #subtitle{
-    font-size: 18pt;
+    font-size: 24pt;
     padding: 1px;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     height: 100px;
     width: 850px;
-    background-color: #37515fff;
-    color: whitesmoke;
+    color: #37515fff;
     text-align: center;
 
+}
+
+#tableofcontents{
+    margin-left:33%;
+    margin-right:33%;
 }
 
 .intro {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px
 }
 
-img.intro{
+h2{
+    padding: 1px;
+    font-size: 36px;
+    color: #37515fff;
+    font-weight: bold;
+    text-align: center;
+}
 
- 
+p{
+    font-size: 18px;
+    text-align:center;
 }
 
 ul {
     list-style-type: circle;
+    font-size: 24px;
+    padding:20px;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align:left
   }
 
 
-img.photos{
+img{
     border-radius: 4px;
     height: 500px;
     width: auto;
     max-width: 100%;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
     }
 
-
-/* div.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-      
-    img {width: 100%}
-      
-    div.container {
-    text-align: center;
-    padding: 10px 20px;
-    } */
