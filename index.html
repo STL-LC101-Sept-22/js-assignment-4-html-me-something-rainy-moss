@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <div class="panorama"><img src="images/Karl Panorama.JPG" alt="Panorama of Karl at the River"></div>
-      <div id="title"><h1>My Dog Might Be Human</h1></div>
-      <div id="subtitle">a case study</div>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="styles.css" type="text/css" rel="stylesheet" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,16 +8,21 @@
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
    </head>
    <body>
+<article>
 
-<div class="intro" style="width: 600px; height: auto; background-color: whitesmoke; box-shadow: 0 4px 8px 0;">
+<header id="mainHeading">
+<div id= "panorama"><img src="images/Karl Panorama.JPG" alt="Panorama of Karl at the River"></div>
+<div id="title"><h1>My Dog Might Be Human</h1></div>
+<div id="subtitle">a case study</div>
+<div id="intro">
 <h2>Meet Karlo</h2>
-<img src="images/The Face.jpeg" alt="Picture of Karl asleep with his teeth out" height=500px>
-   <p>We call him Karl for short. He&apos;s an 11-year-old Siberian Husky-Malamute Mix (we think), but underneath the double-coat of fur, he is clearly human. But no need to take my word for it. You can see the evidence for yourself.</p>
+<img src="images/The Face.jpeg" alt="Picture of Karl asleep with his teeth out">
+<p>We call him Karl for short. He&apos;s an 11-year-old Siberian Husky-Malamute Mix (we think), but underneath the double-coat of fur, he is clearly human. But no need to take my word for it. You can see the evidence for yourself.</p>
 </div>
+</header>
 
-<div class="table-of-contents">
-<h2>Top 10 signs Karl is actually a human inside of a dog&apos;s body:</h2>
 <nav><a id="Back to Table of Contents"></a>
+   <h2>Top 10 signs Karl is actually a human inside of a dog&apos;s body:</h2>
    <ul id="table-of-contents">
       <li><a href="#Creative Pillow User">Creative Pillow User</a></li>
       <li><a href="#Existential Thinker">Existential Thinker</a></li>
@@ -36,10 +38,10 @@
 </nav>
 </div>
 
-
+<main>
    <section>
    <h2><a id ="Creative Pillow User">Creative Pillow User</h2></a>
-      <p>He requires a pillow at all times, regardless of quality, shape or intended purpose. He will use anything.</p>
+      <p id="testP" class="funParagraph">He requires a pillow at all times, regardless of quality, shape or intended purpose. He will use anything.</p>
       <img src="images/TV Console Pillow.jpeg" alt="TV Console Pillow">
       <img src="images/Towel Pillow.JPG" alt="Towel Pillow">
       <img src="images/Table Pillow.JPG" alt="Table Pillow">
@@ -129,7 +131,10 @@
       <h2><a id="Vocalist"></a>Vocalist</h2>
       <p>He is a talented singer with a wide range. He is a member of the reknowned National Ambulance Chorus, and sings along with church bells or any other human who has figured out how to howl properly.</p>
    </section>
+   <footer>
    <a href="#Back to Table of Contents"><strong>Back to Table of Contents</strong></a>
+   </footer>
    </div>
+   </main>
    </body>
 </html>

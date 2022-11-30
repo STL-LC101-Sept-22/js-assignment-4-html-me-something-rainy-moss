@@ -4,20 +4,26 @@
 --charcoal: #37515fff;
 --xiketic: #1f0812ff; */
 
+#intro{
 
-body {
-    width: 100%;
-    background-color: whitesmoke;
+    width: 600px; 
+    height: auto; 
+    background-color: whitesmoke; 
+    box-shadow: 0 4px 8px 0;
     margin: auto;
-    overflow: auto;
-    font-family:'Courier New', Courier, monospace
-    
+    padding: 2px;
 }
 
-.panorama{
-        padding: 20px;
-}
+#mainHeading{
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
 
+}
 
 #title{
     font-size: 24pt;
@@ -53,13 +59,18 @@ body {
     margin-right:33%;
 }
 
-.intro {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 10px
+p#testP.funParagraph{
+    color: green;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 8px;
+    overflow: auto;
+    font-family:'Courier New', Courier, monospace;
+    display: block;
+    
 }
 
 h2{
