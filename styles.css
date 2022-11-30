@@ -1,1 +1,108 @@
-/* Write your CSS here! */
+/* --melon: #f3b3a6ff;
+--rosy-brown: #b98b82ff;
+--mauvelous: #e4959eff;
+--charcoal: #37515fff;
+--xiketic: #1f0812ff; */
+
+#intro{
+
+    width: 600px; 
+    height: auto; 
+    background-color: whitesmoke; 
+    box-shadow: 0 4px 8px 0;
+    margin: auto;
+    padding: 2px;
+}
+
+#mainHeading{
+    color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+
+#title{
+    font-size: 24pt;
+    padding: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 150px;
+    width: 850px;
+    background-color: #b98b82ff;
+    color: #37515fff;
+    text-align: center;
+    
+}
+
+#subtitle{
+    font-size: 24pt;
+    padding: 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height: 100px;
+    width: 850px;
+    color: #37515fff;
+    text-align: center;
+
+}
+
+#table-of-contents{
+    margin-left:33%;
+    margin-right:33%;
+}
+
+p#testP.funParagraph{
+    color: green;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 8px;
+    overflow: auto;
+    font-family:'Courier New', Courier, monospace;
+    display: block;
+    
+}
+
+h2{
+    padding: 1px;
+    font-size: 36px;
+    color: #37515fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    text-align:center;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 24px;
+    padding:20px;
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align:left
+  }
+
+
+img{
+    border-radius: 4px;
+    height: 500px;
+    width: auto;
+    max-width: 100%;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
