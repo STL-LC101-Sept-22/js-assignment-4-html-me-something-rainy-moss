@@ -32,12 +32,12 @@ describe ("Grading Tests: ", function () {
    });
 
    it("HTML includes the correct number of certain elements", function() {
-         let pElements = container.body.getElementsByTagName("P").length;
-         let headerElements = container.body.getElementsByTagName("Header").length;
-         let footerElements = container.body.getElementsByTagName("Footer").length;
-         let mainElements = container.body.getElementsByTagName("Main").length;
-         let articleElements = container.body.getElementsByTagName("Article").length;
-         let imageElements = container.body.getElementsByTagName("img").length;
+         let pElements = window.document.getElementsByTagName("P").length;
+         let headerElements = window.document.getElementsByTagName("Header").length;
+         let footerElements = window.document.getElementsByTagName("Footer").length;
+         let mainElements = window.document.getElementsByTagName("Main").length;
+         let articleElements = window.document.getElementsByTagName("Article").length;
+         let imageElements = window.document.getElementsByTagName("img").length;
 
          expect(pElements).toBeGreaterThanOrEqual(1);
          expect(headerElements).toBeGreaterThanOrEqual(1);
@@ -48,29 +48,29 @@ describe ("Grading Tests: ", function () {
    })
 
    it("HTML contains correct number of sections", function() {
-      let childrenElements = container.body.children;
+      let childrenElements = window.document.body.children;
 
       expect(childrenElements.length).toBeGreaterThanOrEqual(3);
       expect(childrenElements.length).toBeLessThanOrEqual(10);
    })
 
    it("HTML includes external CSS script", function() {
-      let linkElement = container.getElementsByTagName("Link");
+      let linkElement =  window.document.getElementsByTagName("Link");
       expect(linkElement.item(0).href.includes('styles.css')).toBeTrue();
    })
 
    it("CSS body sets margin and display", function() {
-      expect(window.getComputedStyle(container.body).display).toEqual("block");
-      expect(window.getComputedStyle(container.body).margin).toEqual("8px");
+      expect(window.getComputedStyle(window.document.body).display).toEqual("block");
+      expect(window.getComputedStyle(window.document.body).margin).toEqual("8px");
    })
 
    it("CSS funParagraph class is green", function() {
-      let funParagraphElement = container.getElementById("testP");
+      let funParagraphElement = window.document.getElementById("testP");
       expect(window.getComputedStyle(funParagraphElement).color).toEqual("green");
    })
 
    it("CSS mainHeading id is red", function() {
-      let headingElement = container.getElementById("mainHeading");
+      let headingElement = window.document.getElementById("mainHeading");
       expect(window.getComputedStyle(headingElement).color).toEqual("red");
    })
 
